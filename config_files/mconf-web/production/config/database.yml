@@ -1,0 +1,6 @@
+production:
+  adapter: mysql2
+  database: mconf_production
+  username: mconf
+  password: my-password
+  socket: /var/run/mysqld/mysqld.sock
