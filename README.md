@@ -13,7 +13,7 @@ The manual part is made only once, while the scripts here are used to update and
 In your **target server**:
 
 1. [Install system packages](https://github.com/mconf/mconf-web/wiki/Mconf-Web-Deployment-Manual#1-system-packages)
-2. [Install ruby](https://github.com/mconf/mconf-web/wiki/Mconf-Web-Deployment-Manual#2-ruby) _(TODO: only RVM might be enough, now Capistrano installs ruby)_
+2. [Install ruby](https://github.com/mconf/mconf-web/wiki/Mconf-Web-Deployment-Manual#2-ruby) _(**TODO**: only RVM might be enough, now Capistrano installs ruby)_
 3. [Configure the DB](https://github.com/mconf/mconf-web/wiki/Mconf-Web-Deployment-Manual#41-database-user)
 4. **Use Capistrano to deploy the application!** Read below how.
 5. [Install a web server](https://github.com/mconf/mconf-web/wiki/Mconf-Web-Deployment-Manual#6-web-server)
@@ -43,3 +43,5 @@ First setup:
     cap mconf-web:staging deploy:setup
     cap mconf-web:staging deploy:update
     cap mconf-web:staging setup:basic
+    
+_**TODO**: Update the instructions here with the contents of https://github.com/mconf/mconf-web/wiki/Mconf-Web-Deployment-with-Capistrano-(OLD)_
