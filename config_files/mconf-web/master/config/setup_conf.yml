@@ -1,0 +1,37 @@
+default:
+
+  admin:
+    username: "admin"
+    email: "admin@my-domain.com"
+    password: "admin"
+    profile_attributes:
+      full_name: "Mconf Admin"
+
+  webconf_server:
+    name: "Default Server"
+    url: "http://webconf.my-domain/bigbluebutton/api"
+    salt: "12345678901234567890abcdefghijklmnopqrstuvxz"
+    version: "0.8"
+
+  site:
+    name: "Mconf Web"
+    description: "Mconf Web Portal"
+    locale: "en"
+    domain: "my-domain.com"
+    signature: "Mconf Web"
+    feedback_url: "https://my-server.domain.com/feedback-url"
+    analytics_code: ""
+    smtp_login: "my-email@my-domain.com"
+    smtp_password: "my-password"
+    smtp_server: "smtp.my-domain.com"
+    smtp_domain: "my-domain.com"
+    smtp_sender: "no-reply@my-domain.com"
+    smtp_use_tls: "false"
+    smtp_auto_tls: "true"
+    smtp_auth_type: "login"
+    smtp_port: "25"
+    ssl: "false"
+    events_enabled: "true"
+    webconf_auto_record: "true"
+    registration_enabled: "true"
+    require_registration_approval: "false"
